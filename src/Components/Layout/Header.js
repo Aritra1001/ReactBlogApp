@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">My Blog</Link>
+          {/* <Link className="navbar-brand" to="/">My Blog</Link> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -19,33 +19,33 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" aria-current="page" to="/">
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" to="/bollywood">
                   Bollywood
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" to="/technology">
                   Technology
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" to="/hollywood">
                   Hollywood
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" to="/fitness">
                   Fitness
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" to="/food">
                   Food
                 </NavLink>
