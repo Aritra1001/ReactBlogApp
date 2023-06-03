@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Layout from "../../Components/Layout/Layout";
 import { store } from "../../Utility/ContextData";
 
-const Bollywood = () => {
+const Sport = () => {
   const [data] = useContext(store);
 
   const ScrollTop = () => {
@@ -11,11 +11,9 @@ const Bollywood = () => {
 
   return (
     <Layout>
-     
-        <h1 className="head-bolly text-center text-danger my-4">Bollywood</h1>
-
+      <h1 className="head-bolly text-center text-danger my-4">Sports</h1>
       {data
-        .filter((item) => item?.category === "bollywood")
+        .filter((item) => item?.category === "sports")
         .map((item, index) => {
           return (
             <div className="container my-5" key={index}>
@@ -24,24 +22,31 @@ const Bollywood = () => {
                   <h2 className="featurette-heading fw-normal lh-1">
                     {item?.title}
                   </h2>
-                  <p className="lead">
-                    {item?.description}
+                  <p className="lead">{item?.description}</p>
+                  <p className="text-primary">
+                    Country of Origin: {item?.origin}
                   </p>
-                  <p className="text-secondary">Release date: {item?.release_date}</p>
-                  <p className="text-primary">IMDB: {item?.imdb}/10</p>
+                  <p className="text-danger">
+                    Type: {item?.type}
+                  </p>
+                  <p className="text-body-secondary">
+                    Category/ {item?.category}
+                  </p>
                 </div>
                 <div className="col-md-5 order-md-1">
-                 <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                  <img
+                    className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                     src={item?.url}
-                    alt="bollywood"
-                    style={{height:"300px", width:"300px"}}
-                    />
+                    alt="sports"
+                    style={{ width: "300px", height: "300px" }}
+                  />
                 </div>
               </div>
               <hr className="featurette-divider"></hr>
             </div>
           );
         })}
+
       <div className="back-top text-center my-3" onClick={ScrollTop}>
         <i className="fa-solid fa-circle-arrow-up fa-beat fa-2xl"></i>
       </div>
@@ -49,4 +54,4 @@ const Bollywood = () => {
   );
 };
 
-export default Bollywood;
+export default Sport;

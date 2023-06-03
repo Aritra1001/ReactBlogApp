@@ -4,7 +4,7 @@ import Home from '../NavPages/Home/Home';
 import Bollywood from '../NavPages/Bollywood/Bollywood';
 import Technology from '../NavPages/Technology/Technology';
 import Hollywood from '../NavPages/Hollywood/Hollywood';
-import Fitness from '../NavPages/Fitness/Fitness';
+import Sport from '../NavPages/Sport/Sport';
 import Food from '../NavPages/Food/Food';
 
 function RouterCompo(){
@@ -16,7 +16,7 @@ function RouterCompo(){
                     <Route path='/bollywood' element={<Bollywood/>}/>
                     <Route path='/technology' element={<Technology/>}/>
                     <Route path='/hollywood' element={<Hollywood/>}/>
-                    <Route path='/fitness' element={<Fitness/>}/>
+                    <Route path='/sport' element={<Sport/>}/>
                     <Route path='/food' element={<Food/>}/>
                 </Routes>
             </BrowserRouter>

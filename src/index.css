@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.main-head{
+  text-decoration: 3px underline crimson;
+  font-weight: bolder;
+}
+
 /* navbar css */
 .navbar{
   font-family: 'Raleway', sans-serif;
@@ -22,3 +27,16 @@
   border-bottom: 2px solid crimson;
 }
 
+.back-top:hover{
+  cursor: pointer;
+}
+
+
+
+/* .head-div-bolly{
+  border-bottom: 3px solid rebeccapurple;
+} */
+.head-bolly{
+  text-decoration: underline rebeccapurple;
+  font-weight: bold;
+}
