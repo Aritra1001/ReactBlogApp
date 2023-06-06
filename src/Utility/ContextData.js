@@ -15,7 +15,7 @@ const ContextData = (props) => {
       url: "https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=",
       category: "Travel",
       title: "Taj Mahal",
-      description: "",
+      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. ",
       date: "11th March, 2023",
     },
     {
@@ -23,7 +23,7 @@ const ContextData = (props) => {
       url: "https://static.toiimg.com/photo/77612158.cms",
       title: "Christ the redemeer",
       category: "Travel",
-      description: "",
+      description: "Christ the Redeemer, colossal statue of Jesus Christ at the summit of Mount Corcovado, Rio de Janeiro, southeastern Brazil. ",
       date: "11th March, 2023",
     },
     {
@@ -31,7 +31,7 @@ const ContextData = (props) => {
       url: "https://cdn.britannica.com/54/122154-131-52D686FF/Great-Wall-of-China.jpg",
       title: "The Great wall of China",
       category: "Travel",
-      description: "",
+      description: "The Great Wall of China is an ancient wall in China. It was meant to protect the north of the empire of China from enemy attacks. ",
       date: "11th March, 2023",
     },
     {
@@ -418,24 +418,6 @@ const ContextData = (props) => {
       origin: "USA",
       type: "Outdoor"
     },
-    {
-      id: 44,
-      url: "https://images.unsplash.com/photo-1613967193490-1d17b930c1a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXRpZnVsJTIwbGFuZHNjYXBlfGVufDB8fDB8fHww&w=1000&q=80",
-      category: "carouselImg",
-      title: "Landscape 1"
-    },
-    {
-        id: 45,
-        url: "https://images.unsplash.com/photo-1613967193490-1d17b930c1a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXRpZnVsJTIwbGFuZHNjYXBlfGVufDB8fDB8fHww&w=1000&q=80",
-        category: "carouselImg",
-        title: "Mount Kanchenjunga"
-    },
-    {
-      id: 46,
-      url:"",
-      category: "carouselImg",
-      title: ""
-    }
   ]);
 
   return (
