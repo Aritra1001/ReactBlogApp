@@ -71,3 +71,10 @@
     width: 23rem;
   }
 } */
+
+.container-detail{
+  margin: 5% 0 0 5%;
+  display: flex;
+  align-items: center;
+  /* align-items: ; */
+}

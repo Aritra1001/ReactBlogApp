@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { store } from "../../Utility/ContextData";
+import { useNavigate } from "react-router-dom";
 
 const Travel = () => {
   const [data] = useContext(store);
@@ -10,6 +11,12 @@ const Travel = () => {
   const year = method.getFullYear();
   const currDate = date + "/" + month + "/" + year;
   console.log("curr date", currDate);
+
+  const nav = useNavigate();
+  const handleNavigate = (id, item)=>{
+    nav(`/itemDetail/${id}`, {state: {itemDetail: item, status: "available"}});
+  }
+
 
   return (
     <div className="container">
@@ -51,7 +58,7 @@ const Travel = () => {
                     <p className="card-text text-muted">
                       {currDate} / {item?.category}
                     </p>
-                    <button href="/" className="btn btn-primary">
+                    <button className="btn btn-primary" onClick={()=>handleNavigate(item.id, item)}>
                       Continue reading
                     </button>
                   </div>

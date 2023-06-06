@@ -126,7 +126,7 @@ const ContextData = (props) => {
     },
     {
       id: 14,
-      url: "https://upload.wikimedia.org/wikipedia/en/c/c3/Pathaan_film_poster.jpg",
+      url: "https://www.bollywoodhungama.com/wp-content/uploads/2022/11/Pathaan-5.jpg",
       title: "Pathan",
       category: "bollywood",
       description:
@@ -186,7 +186,7 @@ const ContextData = (props) => {
     },
     {
       id: 20,
-      url: "https://m.media-amazon.com/images/M/MV5BYWY1ZDY4MmQtYjhiYS00N2QwLTk1NzgtOWI2YzUwZThjNDYwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      url: "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/03/creed-iii-movie-review-1.jpg",
       title: "Creed III",
       description:
         "Creed III is a 2023 American sports drama film directed by and starring Michael B. Jordan (in his directorial debut) from a screenplay by Keenan Coogler and Zach Baylin.",
@@ -206,7 +206,7 @@ const ContextData = (props) => {
     },
     {
       id: 22,
-      url: "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg",
+      url: "https://media.distractify.com/brand-img/mRNfRIiZk/0x0/is-john-wick-4-the-last-one-1679501455542.jpg",
       title: "John Wick: chapter 4",
       description:
         "John Wick: Chapter 4 (stylized as JW4) is a 2023 American neo-noir action thriller film directed by Chad Stahelski and written by Shay Hatten and Michael Finch. ",
@@ -216,7 +216,7 @@ const ContextData = (props) => {
     },
     {
       id: 23,
-      url: "https://upload.wikimedia.org/wikipedia/en/3/30/Ant-Man_and_the_Wasp_Quantumania_poster.jpg",
+      url: "https://images.thedirect.com/media/article_full/ant-man-quantumania-genre-mcu-marvel.jpg",
       title: "Antman and the Wasp: Quantumania",
       description:
         "Ant-Man and the Wasp: Quantumania is a 2023 American superhero film based on Marvel Comics featuring the characters Scott Lang / Ant-Man and Hope Pym / Wasp.",
@@ -226,7 +226,7 @@ const ContextData = (props) => {
     },
     {
       id: 24,
-      url: "https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_FMjpg_UX1000_.jpg",
+      url: "https://cdn.wionews.com/sites/default/files/2023/04/21/346850-evil-dead-franchise.png",
       title: "Evil Dead Rise ",
       description:
         "Evil Dead Rise is a 2023 American supernatural horror film written and directed by Lee Cronin. It is the fifth installment of the Evil Dead film series. The film stars Lily Sullivan and Alyssa Sutherland as two estranged sisters trying to survive and save their family from deadites. ",

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { store } from "../../Utility/ContextData";
+import { useNavigate } from "react-router-dom";
 
 const Latest = () => {
   const [data] = useContext(store);
@@ -10,13 +11,18 @@ const Latest = () => {
   const year = method.getFullYear();
   const currDate = date + "/" + month + "/" + year;
 
+  const nav = useNavigate();
+  const handleNavigate = (id, item)=>{
+    nav(`/itemDetail/${id}`, {state: {itemDetail: item, status: "available"}});
+  }
+
   return (
     <>
       {data
         .filter((item) => item?.category === "Latest")
         .map((item, index) => {
           return (
-            <div className="container my-5" key={index}>
+            <div className="container my-5" key={index} onClick={()=>handleNavigate(item.id, item)}>
               <div className="row featurette my-4 mx-3">
                 <div className="col-md-7 order-md-2">
                   <h2 className="featurette-heading fw-normal lh-1">

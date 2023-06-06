@@ -6,6 +6,8 @@ import Technology from '../NavPages/Technology/Technology';
 import Hollywood from '../NavPages/Hollywood/Hollywood';
 import Sport from '../NavPages/Sport/Sport';
 import Food from '../NavPages/Food/Food';
+// import FoodDetail from '../NavPages/Food/FoodDetail';
+import ItemDetails from './ItemDetail';
 
 function RouterCompo(){
     return(
@@ -18,6 +20,7 @@ function RouterCompo(){
                     <Route path='/hollywood' element={<Hollywood/>}/>
                     <Route path='/sport' element={<Sport/>}/>
                     <Route path='/food' element={<Food/>}/>
+                    <Route path='itemDetail/:id' element={<ItemDetails/>}/>
                 </Routes>
             </BrowserRouter>
         </>

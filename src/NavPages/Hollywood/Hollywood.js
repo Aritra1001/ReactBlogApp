@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import Layout from '../../Components/Layout/Layout'
 import { store } from '../../Utility/ContextData'
+import { useNavigate } from 'react-router-dom'
 
 const Hollywood = () => {
 
@@ -10,13 +11,18 @@ const Hollywood = () => {
     window.scroll(0,0);
   }
 
+const nav = useNavigate();
+const handleNavigate = (id, item)=>{
+  nav(`/itemDetail/${id}`, {state: {itemDetail: item, status: "available"}});
+}
+
   return (
     <Layout>
         <h1 className="head-bolly text-center text-danger my-4">Hollywood</h1>
         {
           data.filter((item)=> item?.category === 'hollywood').map((item, index)=>{
             return(
-              <div className='container my-5' key={index}>
+              <div className='container my-5' key={index} onClick={()=>handleNavigate(item.id, item)}>
                   <div className="row featurette my-4 mx-3">
                     <div className="col-md-7 order-md-2">
                       <h2 className="featurette-heading fw-normal lh-1">
