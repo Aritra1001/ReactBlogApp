@@ -76,7 +76,7 @@ const ContextData = (props) => {
       title: "Nathula Pass",
       category: "LatestArticle",
       description:
-        "Nathu La (Tibetan: རྣ་ཐོས་ལ་, Wylie: Rna thos la, THL: Na tö la, Chinese: 乃堆拉山口) is a mountain pass in the Dongkya Range of the Himalayas between China's Yadong County in Tibet, and the Indian states of Sikkim and West Bengal in Bengal, South Asia. The pass, at 4,310 m (14,140 ft), connects the towns of Kalimpong and Gangtok to the villages and towns of the lower Chumbi Valley.",
+        "Nathu La is a mountain pass in the Dongkya Range of the Himalayas between China's Yadong County in Tibet, and the Indian states of Sikkim and West Bengal in Bengal, South Asia. The pass, at 4,310 m (14,140 ft), connects the towns of Kalimpong and Gangtok to the villages and towns of the lower Chumbi Valley.",
       date: "11th March, 2023",
     },
     {

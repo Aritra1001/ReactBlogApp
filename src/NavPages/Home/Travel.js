@@ -14,7 +14,7 @@ const Travel = () => {
   return (
     <div className="container">
       {/* <div className="row align-center travel-item"> */}
-      <div class="row row-cols-1 row-cols-md-3 g-4 my-3 ">
+      <div className="row row-cols-1 row-cols-md-3 g-4 my-3 ">
         {data
           .filter((item) => item?.category === "Travel")
           .map((item, index) => {
@@ -37,18 +37,18 @@ const Travel = () => {
               //   </div>
               // </div>
 
-              <div class="col " key={index}>
-                <div class="card border-primary">
+              <div className="col " key={index}>
+                <div className="card border-primary">
                   <img
                     src={item?.url}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="travel"
                     style={{ height: "250px" }}
                   />
-                  <div class="card-body text-center">
-                    <h5 class="card-title">{item?.title}</h5>
-                    <p class="card-text">{item?.description}</p>
-                    <p class="card-text text-muted">
+                  <div className="card-body text-center">
+                    <h5 className="card-title">{item?.title}</h5>
+                    <p className="card-text">{item?.description}</p>
+                    <p className="card-text text-muted">
                       {currDate} / {item?.category}
                     </p>
                     <button href="/" className="btn btn-primary">
